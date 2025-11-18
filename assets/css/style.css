@@ -22766,10 +22766,10 @@ input[type="time"]::-webkit-calendar-picker-indicator , input[type="date"]::-web
   border-right: 1px solid rgba(255, 255, 255, 0.35);
 } */
 
-/* .site-header .main-bar .navbar-nav>li {
+.site-header .main-bar .navbar-nav>li {
   border-left: 1px solid rgba(255, 255, 255, 0.25);
   border-right: 1px solid rgba(255, 255, 255, 0.25);
-} */
+}
 .xmenu-toggler {
   border-radius: 9999px;
   border: 1px solid rgba(255, 255, 255, 0.45);

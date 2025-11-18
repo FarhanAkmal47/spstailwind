@@ -127,13 +127,13 @@
                         </div>
                         <ul class="lg:flex flex-wrap navbar-nav">
                             <li class="lg:inline-block block max-lg:border-b max-lg:border-gray-200 group">
-                                <a class="lg:py-7 py-2 xl:px-4 lg:px-2 relative lg:inline-block block xl:text-lg text-2sm font-medium hover:text-primary after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-primary max-lg:after:hidden"
+                                <a class="lg:py-7 py-2 xl:px-4 lg:px-2 relative lg:inline-block block xl:text-sm text-2sm font-medium hover:text-white after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-white max-lg:after:hidden"
                                     href="javascript:void(0);">
                                     <span class="inline-block leading-7.5">Home</span>
                                 </a>
                             </li>
                             <li class="lg:inline-block block max-lg:border-b max-lg:border-gray-200 relative group">
-                                <a class="lg:py-7 py-2 xl:px-4 lg:px-2 relative lg:inline-block block xl:text-lg text-2sm font-medium hover:text-primary after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-primary after:content-['+'] max-lg:after:hidden"
+                                <a class="lg:py-7 py-2 xl:px-4 lg:px-2 relative lg:inline-block block xl:text-sm text-2sm font-medium hover:text-white after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-white after:content-['+'] max-lg:after:hidden"
                                     href="<?= $app_path ?>assets/about-us.html">
                                     <span class="inline-block leading-7.5">Products</span>
                                     <i
@@ -199,7 +199,7 @@
                                 </ul>
                             </li>
                             <li class="lg:inline-block block max-lg:border-b max-lg:border-gray-200 group">
-                                <a class="lg:py-7 py-2 xl:px-4 lg:px-2 relative lg:inline-block block xl:text-lg text-2sm font-medium hover:text-primary after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-primary after:content-['+'] max-lg:after:hidden"
+                                <a class="lg:py-7 py-2 xl:px-4 lg:px-2 relative lg:inline-block block xl:text-sm text-2sm font-medium hover:text-white after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-white after:content-['+'] max-lg:after:hidden"
                                     href="javascript:void(0);">
                                     <span class="inline-block leading-7.5">Services</span>
                                     <i
@@ -321,7 +321,7 @@
                                 </div>
                             </li>
                             <li class="lg:inline-block block max-lg:border-b max-lg:border-gray-200 relative group">
-                                <a class="lg:py-7 py-2 xl:px-4 lg:px-2 relative lg:inline-block block xl:text-lg text-2sm font-medium hover:text-primary after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-primary after:content-['+'] max-lg:after:hidden"
+                                <a class="lg:py-7 py-2 xl:px-4 lg:px-2 relative lg:inline-block block xl:text-sm text-2sm font-medium hover:text-white after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-white after:content-['+'] max-lg:after:hidden"
                                     href="<?= $app_path ?>assets/services.html">
                                     <span class="inline-block leading-7.5">Automation</span>
                                     <i
@@ -341,7 +341,7 @@
                                 </ul>
                             </li>
                             <li class="lg:inline-block block max-lg:border-b max-lg:border-gray-200 relative group">
-                                <a class="lg:py-7 py-2 xl:px-4 lg:px-2 relative lg:inline-block block xl:text-lg text-2sm font-medium hover:text-primary after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-primary after:content-['+'] max-lg:after:hidden"
+                                <a class="lg:py-7 py-2 xl:px-4 lg:px-2 relative lg:inline-block block xl:text-sm text-2sm font-medium hover:text-white after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-white after:content-['+'] max-lg:after:hidden"
                                     href="<?= $app_path ?>assets/blog-grid.html">
                                     <span class="inline-block leading-7.5">Verticle</span>
                                     <i
@@ -427,8 +427,8 @@
                             </li>
 
                             <li class="lg:inline-block block max-lg:border-b max-lg:border-gray-200 relative group">
-                                <a class="lg:py-7 py-2 xl:px-4 lg:px-2 relative lg:inline-block block xl:text-lg text-2sm font-medium hover:text-primary"
-                                    href="<?= $app_path ?>assets/contact-us.html">
+                                <a class="lg:py-7 py-2 xl:px-4 lg:px-2 relative lg:inline-block block xl:text-sm text-2sm font-medium hover:text-white"
+                                    href="<?= $app_path ?>assets/white-us.html">
                                     <span class="inline-block leading-7.5">Contact Us</span>
                                 </a>
                             </li>
