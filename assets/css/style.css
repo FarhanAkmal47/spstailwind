@@ -24233,3 +24233,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
  {
     border-color: #ffffffab !important;
 }
+
+.btnpadding {
+    padding: calc(var(--spacing) * 1.5) calc(var(--spacing) * 6.25);
+}

@@ -31,7 +31,7 @@
             <div class="container-fluid flex items-center relative">
 
                 <!-- Website Logo -->
-                <div class="flex items-center align-middle xl:w-100.75 w-100.75 sm:h-20 h-15.25 max-xl:me-2 logo-dark">
+                <div class="flex items-center align-middle xl:w-100.75 w-100.75 w-80 max-xl:me-2 logo-dark">
                     <a href="<?= $app_path ?>assets/index.html" class="table-cell align-middle">
                         <img loading="lazy" src="assets/images/logowhitenew.png" alt="logo" class="object-contain"
                             width="300px">
@@ -48,7 +48,7 @@
                     class="flex lg:basis-auto lg:grow max-lg:flex-col lg:justify-end max-lg:fixed max-lg:h-full max-lg:px-5 max-lg:top-0 max-lg:-left-[300px] max-lg:z-50 max-lg:bg-white max-lg:w-72 max-lg:overflow-auto max-lg:transition-all max-lg:duration-500 header-nav custom-scroll">
 
                     <!-- Mobile Logo inside menu -->
-                    <div class="flex items-center relative z-10 py-6.25 lg:hidden h-15.25">
+                    <div class="flex items-center relative z-10 lg:hidden">
                         <a href="<?= $app_path ?>assets/index.html" class="table-cell align-middle">
                             <img loading="lazy" src="assets/images/logo.png" alt="logo" width="400" height="120"
                                 class="object-contain duration-500" />
@@ -58,13 +58,13 @@
                     <!-- Menu Items -->
                     <ul class="lg:flex flex-wrap navbar-nav">
                         <li class="lg:inline-block block max-lg:border-b max-lg:border-gray-200 group">
-                            <a class="lg:py-7 py-2 xl:px-4 lg:px-2 relative lg:inline-block block xl:text-sm text-2sm font-medium hover:text-white after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-white max-lg:after:hidden"
+                            <a class="xl:px-4 lg:px-2 relative lg:inline-block block xl:text-sm text-2sm font-medium hover:text-white after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-white max-lg:after:hidden"
                                 href="javascript:void(0);">
                                 <span class="inline-block leading-7.5">Home</span>
                             </a>
                         </li>
                         <li class="lg:inline-block block max-lg:border-b max-lg:border-gray-200 relative group">
-                            <a class="lg:py-7 py-2 xl:px-4 lg:px-2 relative lg:inline-block block xl:text-sm text-2sm font-medium hover:text-white after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-white after:content-['+'] max-lg:after:hidden"
+                            <a class="xl:px-4 lg:px-2 relative lg:inline-block block xl:text-sm text-2sm font-medium hover:text-white after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-white after:content-['+'] max-lg:after:hidden"
                                 href="<?= $app_path ?>assets/about-us.html">
                                 <span class="inline-block leading-7.5">Products</span>
                                 <i
@@ -130,7 +130,7 @@
                             </ul>
                         </li>
                         <li class="lg:inline-block block max-lg:border-b max-lg:border-gray-200 group">
-                            <a class="lg:py-7 py-2 xl:px-4 lg:px-2 relative lg:inline-block block xl:text-sm text-2sm font-medium hover:text-white after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-white after:content-['+'] max-lg:after:hidden"
+                            <a class="xl:px-4 lg:px-2 relative lg:inline-block block xl:text-sm text-2sm font-medium hover:text-white after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-white after:content-['+'] max-lg:after:hidden"
                                 href="javascript:void(0);">
                                 <span class="inline-block leading-7.5">Services</span>
                                 <i
@@ -252,7 +252,7 @@
                             </div>
                         </li>
                         <li class="lg:inline-block block max-lg:border-b max-lg:border-gray-200 relative group">
-                            <a class="lg:py-7 py-2 xl:px-4 lg:px-2 relative lg:inline-block block xl:text-sm text-2sm font-medium hover:text-white after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-white after:content-['+'] max-lg:after:hidden"
+                            <a class="xl:px-4 lg:px-2 relative lg:inline-block block xl:text-sm text-2sm font-medium hover:text-white after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-white after:content-['+'] max-lg:after:hidden"
                                 href="<?= $app_path ?>assets/services.html">
                                 <span class="inline-block leading-7.5">Automation</span>
                                 <i
@@ -272,7 +272,7 @@
                             </ul>
                         </li>
                         <li class="lg:inline-block block max-lg:border-b max-lg:border-gray-200 relative group">
-                            <a class="lg:py-7 py-2 xl:px-4 lg:px-2 relative lg:inline-block block xl:text-sm text-2sm font-medium hover:text-white after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-white after:content-['+'] max-lg:after:hidden"
+                            <a class="xl:px-4 lg:px-2 relative lg:inline-block block xl:text-sm text-2sm font-medium hover:text-white after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-white after:content-['+'] max-lg:after:hidden"
                                 href="<?= $app_path ?>assets/blog-grid.html">
                                 <span class="inline-block leading-7.5">Verticle</span>
                                 <i
@@ -358,7 +358,7 @@
                         </li>
 
                         <li class="lg:inline-block block max-lg:border-b max-lg:border-gray-200 relative group">
-                            <a class="lg:py-7 py-2 xl:px-4 lg:px-2 relative lg:inline-block block xl:text-sm text-2sm font-medium hover:text-white"
+                            <a class="xl:px-4 lg:px-2 relative lg:inline-block block xl:text-sm text-2sm font-medium hover:text-white"
                                 href="<?= $app_path ?>assets/white-us.html">
                                 <span class="inline-block leading-7.5">Contact Us</span>
                             </a>
@@ -384,18 +384,18 @@
                     </div>
                 </div>
                 <div
-                    class="extra-nav flex items-center h-20 3xl:pl-7.5 ml-auto max-sm:w-full max-sm:bg-white max-sm:fixed max-sm:-bottom-20 max-sm:left-0 max-sm:px-5 max-sm:shadow-3 max-sm:h-15 max-sm:duration-500 [.extra-nav.active]:bottom-0 [.extra-nav.bottom-end]:-bottom-20">
+                    class="extra-nav flex items-center 3xl:pl-7.5 ml-auto max-sm:w-full max-sm:bg-white max-sm:fixed max-sm:-bottom-20 max-sm:left-0 max-sm:px-5 max-sm:shadow-3 max-sm:h-15 max-sm:duration-500 [.extra-nav.active]:bottom-0 [.extra-nav.bottom-end]:-bottom-20">
                     <div class="flex items-center w-full">
                         <ul class="lg:ml-5 sm:ml-3.75 flex items-center gap-2.5 w-full justify-between">
                             <li class="inline-block">
                                 <a href="appointment.html"
-                                    class="btn btn-trans btn-hover1 max-md:!text-sm max-md:!py-2.5 max-md:!px-4.5 max-md:!rounded-2lg">
+                                    class="btn btn-trans btn-hover1 btnpadding max-md:!text-sm max-md:!py-2.5 max-md:!px-4.5 max-md:!rounded-2lg">
                                     Internship
                                 </a>
                             </li>
                             <li class="inline-block" data-drawer="#offcanvas-right" data-drawer-placement="right">
                                 <button type="button"
-                                    class="md:size-12.5 size-10.5 bg-transparent border border-white-custom min-w-10 md:rounded-xxl rounded-lg flex flex-col justify-center items-center relative cursor-pointer toggle-nav-btn"
+                                    class="size-8 bg-transparent border border-white-custom min-w-10 md:rounded-xxl rounded-lg flex flex-col justify-center items-center relative cursor-pointer toggle-nav-btn"
                                     aria-label="Toggle drawer">
                                     <span class="w-5 h-0.5 bg-white block duration-500"></span>
                                     <span class="w-4 my-1.25 h-0.5 bg-white block duration-500"></span>
@@ -449,7 +449,7 @@ toggleButtons.forEach(btn => {
     });
 });
 
-// Close menu when clicking overla
+// Close menu when clicking overlay
 overlay.addEventListener('click', () => {
     headerNav.classList.add('hidden-mobile-menu');
     headerNav.classList.remove('show-mobile-menu');
