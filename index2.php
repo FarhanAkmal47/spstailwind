@@ -22,6 +22,38 @@ include("includes/header.php");
 .swiper-slide {
     height: 700px;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #fff !important;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    transition: all 0.35s ease;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 22px !important;
+    font-weight: bold;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background: rgba(255, 255, 255, 0.35);
+    transform: scale(1.12);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+.swiper-button-next:active,
+.swiper-button-prev:active {
+    transform: scale(0.95);
+    background: rgba(255, 255, 255, 0.5);
+}
 </style>
 
 <main class="page-content">
@@ -41,35 +73,20 @@ include("includes/header.php");
                 <div class="container h-full flex items-center relative z-10">
                     <div class="text-white max-w-2xl">
                         <h1 class="text-5xl font-bold mb-4 text-white">What If</h1>
-                        <ul class="list-disc pl-5 space-y-2 text-gray-700 mb-4">
-
-                            <li class="opacity-100 transition-opacity duration-700 text-white">
-                                You could enhance your Identity Management.
-                            </li>
-
-                            <li class="opacity-100 transition-opacity duration-700 text-white">
-                                You could modernize your legacy enterprise information systems.
-                            </li>
-
-                            <li class="opacity-100 transition-opacity duration-700 text-white">
-                                You could have Security Operations Center 24x7.
-                            </li>
-
-                            <li class="opacity-100 transition-opacity duration-700 text-white">
-                                You could have your Cyber Security environment managed for you.
-                            </li>
-
-                            <li class="opacity-100 transition-opacity duration-700 text-white">
-                                You could have Compliance Artifacts for your Auditors at click of a button.
-                            </li>
-
+                        <ul class="list-disc pl-5 space-y-2 text-white mb-4">
+                            <li>You could enhance your Identity Management.</li>
+                            <li>You could modernize your legacy enterprise information systems.</li>
+                            <li>You could have Security Operations Center 24x7.</li>
+                            <li>You could have your Cyber Security environment managed for you.</li>
+                            <li>You could have Compliance Artifacts for your Auditors at click of a button.</li>
                         </ul>
 
-                        <a href="#" class="btn btn-primary mr-3">Request Consiltation</a>
-                        <a href="#" class="btn btn-secondary">How can we help you today </a>
+                        <a href="#" class="btn btn-primary mr-3">Request Consultation</a>
+                        <a href="#" class="btn btn-secondary">How can we help you today</a>
                     </div>
                 </div>
             </div>
+
             <!-- Slide 1 -->
             <div class="swiper-slide relative h-full">
                 <div class="video-bg">
@@ -81,23 +98,15 @@ include("includes/header.php");
                 <div class="container h-full flex items-center relative z-10">
                     <div class="text-white max-w-2xl">
                         <h1 class="text-5xl font-bold mb-4 text-white">Artificial Intelligence</h1>
-                        <p class="text-xl mb-2 text-white">
-                            Transforming businesses with AI-driven automation.
-                        </p>
-                        <p class="text-lg mb-4 text-white">
-                            Implement AI strategies to reduce operational costs, enhance customer experience, and drive
-                            innovation.
-                        </p>
-                        <p class="text-lg mb-6 text-white">
-                            Our AI solutions adapt to your business needs, ensuring measurable growth and efficiency.
-                        </p>
+                        <p class="text-xl mb-2 text-white">Transforming businesses with AI-driven automation.</p>
+                        <p class="text-lg mb-4 text-white">Implement AI strategies to reduce operational costs and
+                            enhance customer experience.</p>
+                        <p class="text-lg mb-6 text-white">Our AI solutions adapt to your business needs.</p>
                         <a href="#" class="btn btn-primary mr-3">Explore AI</a>
                         <a href="#" class="btn btn-secondary">Contact Us</a>
                     </div>
                 </div>
             </div>
-
-
 
             <!-- Slide 3 -->
             <div class="swiper-slide relative h-full">
@@ -110,22 +119,15 @@ include("includes/header.php");
                 <div class="container h-full flex items-center relative z-10">
                     <div class="text-white max-w-2xl">
                         <h1 class="text-5xl font-bold mb-4 text-white">Cloud Solutions</h1>
-                        <p class="text-xl mb-2 text-white">
-                            Scale your business with secure cloud technology.
-                        </p>
-                        <p class="text-lg mb-4 text-white">
-                            Migrate to the cloud seamlessly and benefit from flexible infrastructure, enhanced
-                            collaboration, and cost efficiency.
-                        </p>
-                        <p class="text-lg mb-6 text-white">
-                            Our cloud services ensure high performance, data security, and 24/7 availability for your
-                            critical operations.
-                        </p>
+                        <p class="text-xl mb-2 text-white">Scale your business with secure cloud technology.</p>
+                        <p class="text-lg mb-4 text-white">Migrate to the cloud seamlessly.</p>
+                        <p class="text-lg mb-6 text-white">High performance & 24/7 availability.</p>
                         <a href="#" class="btn btn-primary mr-3">Explore Cloud</a>
                         <a href="#" class="btn btn-secondary">Contact Us</a>
                     </div>
                 </div>
             </div>
+
             <!-- Slide 2 -->
             <div class="swiper-slide relative h-full">
                 <div class="video-bg">
@@ -137,27 +139,26 @@ include("includes/header.php");
                 <div class="container h-full flex items-center relative z-10">
                     <div class="text-white max-w-2xl">
                         <h1 class="text-5xl font-bold mb-4 text-white">Cybersecurity Services</h1>
-                        <p class="text-xl mb-2 text-white">
-                            Protect your business with advanced cyber defense.
-                        </p>
-                        <p class="text-lg mb-4 text-white">
-                            Our comprehensive cybersecurity services safeguard your digital assets against threats and
-                            vulnerabilities.
-                        </p>
-                        <p class="text-lg mb-6 text-white">
-                            Stay ahead of cybercriminals with continuous monitoring, threat detection, and rapid
-                            incident response.
-                        </p>
+                        <p class="text-xl mb-2 text-white">Protect your business with advanced cyber defense.</p>
+                        <p class="text-lg mb-4 text-white">Safeguard digital assets against threats.</p>
+                        <p class="text-lg mb-6 text-white">Continuous monitoring & rapid response.</p>
                         <a href="#" class="btn btn-primary mr-3">Explore Security</a>
                         <a href="#" class="btn btn-secondary">Contact Us</a>
                     </div>
                 </div>
             </div>
+
         </div>
 
-
+        <!-- Pagination -->
         <div class="swiper-pagination"></div>
+
+        <!-- Navigation Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
     </div>
+
 
     <section
         class="2xxl:pt-25 2xxl:pb-17.5 md:pt-17.5 md:pb-2.5 sm:pt-12.5 pt-10 pb-5 bg-no-repeat bg-right-bottom bg-[url(assets/images/background/bg01.webp)]">
@@ -2504,20 +2505,6 @@ include("includes/header.php");
 
 <script src="<?= $app_path ?>assets/vendor/swiper/swiper-bundle.min.js"></script>
 <script>
-let players = [];
-
-// Initialize YouTube Players for all iframes
-function onYouTubeIframeAPIReady() {
-    const iframes = document.querySelectorAll('.heroSwiper iframe');
-    iframes.forEach((iframe, i) => {
-        players[i] = new YT.Player(iframe);
-    });
-
-    // Play first slide video
-    if (players[0] && players[0].playVideo) players[0].playVideo();
-}
-
-// Initialize Swiper
 var swiper = new Swiper(".heroSwiper", {
     loop: true,
     autoplay: {
@@ -2528,20 +2515,13 @@ var swiper = new Swiper(".heroSwiper", {
     fadeEffect: {
         crossFade: true
     },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true
-    },
-    on: {
-        slideChange: function() {
-            const index = this.realIndex;
-            // Pause all videos
-            players.forEach(p => {
-                if (p.pauseVideo) p.pauseVideo();
-            });
-            // Play current slide video
-            if (players[index] && players[index].playVideo) players[index].playVideo();
-        }
+    // pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true
+    // },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
     }
 });
 </script>
