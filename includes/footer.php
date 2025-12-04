@@ -1,13 +1,13 @@
 <!-- Footer -->
 <footer
-    class="relative z-1 overflow-hidden bg-light before:absolute before:left-0 before:top-0 before:size-full before:bg-light before:opacity-40 bg-[url(assets/images/background/bg4.webp)]">
+    class="relative z-1 overflow-hidden bg-white before:absolute before:left-0 before:top-0 before:size-full before:bg-light before:opacity-40 bg-[url(assets/images/background/bg4.webp)]">
     <div class="footer-head">
         <div class="container relative z-1">
             <div class="xl:pt-20 pt-12.5 pb-6.25 border-b border-black/10">
                 <div class="row g-3 items-center">
                     <div class="xl:w-1/4 md:w-full sm:w-1/2 w-full">
                         <h2 class="text-2xl">Get in Touch with us</h2>
-                        <p class="text">Lorem Ipsum&nbsp;is simply dummy</p>
+                        <p class="text">Software Productivity Strategist</p>
                     </div>
                     <div class="xl:w-1/4 md:w-1/3 sm:w-1/2 w-full">
                         <div class="relative flex gap-3.75 text-left">
@@ -94,29 +94,31 @@
                         <ul class="list-hover1">
                             <li class="relative py-2 text-2sm leading-5 font-medium">
                                 <a class="link-hover hover:text-primary"
-                                    href="<?= $app_path ?>assets/service-detail.html"><span>Emergency Care</span></a>
+                                    href="<?= $app_path ?>assets/service-detail.html"><span>Cloud Migration</span></a>
                             </li>
                             <li class="relative py-2 text-2sm leading-5 font-medium">
                                 <a class="link-hover hover:text-primary"
-                                    href="<?= $app_path ?>assets/service-detail.html"><span>Operation Theater</span></a>
+                                    href="<?= $app_path ?>assets/service-detail.html"><span>AI & Machine
+                                        Learning</span></a>
                             </li>
                             <li class="relative py-2 text-2sm leading-5 font-medium">
                                 <a class="link-hover hover:text-primary"
-                                    href="<?= $app_path ?>assets/service-detail.html"><span>Medical
-                                        Checkup</span></a>
+                                    href="<?= $app_path ?>assets/service-detail.html"><span>Data Analytics</span></a>
                             </li>
                             <li class="relative py-2 text-2sm leading-5 font-medium">
                                 <a class="link-hover hover:text-primary"
-                                    href="<?= $app_path ?>assets/service-detail.html"><span>Diagnostic Center</span></a>
+                                    href="<?= $app_path ?>assets/service-detail.html"><span>Cybersecurity
+                                        Solutions</span></a>
                             </li>
                             <li class="relative py-2 text-2sm leading-5 font-medium">
                                 <a class="link-hover hover:text-primary"
-                                    href="<?= $app_path ?>assets/service-detail.html"><span>Outdoor
-                                        Checkup</span></a>
+                                    href="<?= $app_path ?>assets/service-detail.html"><span>DevOps &
+                                        Automation</span></a>
                             </li>
                         </ul>
                     </div>
                 </div>
+
                 <div class="xl:w-1/6 md:w-1/4 w-1/2">
                     <div class="sm:mb-7.5 mb-5">
                         <h2 class="text-xl/[1.2] relative mb-5 font-medium">
@@ -124,55 +126,52 @@
                         </h2>
                         <ul class="list-hover1">
                             <li class="relative py-2 text-2sm leading-5 font-medium">
-                                <a class="link-hover hover:text-primary" href="/"><span>Privacy
-                                        Policy</span></a>
+                                <a class="link-hover hover:text-primary" href="/"><span>Privacy Policy</span></a>
                             </li>
                             <li class="relative py-2 text-2sm leading-5 font-medium">
-                                <a class="link-hover hover:text-primary" href="/"><span>Terms &
-                                        Conditions</span></a>
-                            </li>
-                            <li class="relative py-2 text-2sm leading-5 font-medium">
-                                <a class="link-hover hover:text-primary"
-                                    href="<?= $app_path ?>assets/contact-us.html"><span>Contact
-                                        Us</span></a>
+                                <a class="link-hover hover:text-primary" href="/"><span>Terms & Conditions</span></a>
                             </li>
                             <li class="relative py-2 text-2sm leading-5 font-medium">
                                 <a class="link-hover hover:text-primary"
-                                    href="<?= $app_path ?>assets/blog-grid.html"><span>Latest
-                                        News</span></a>
+                                    href="<?= $app_path ?>assets/contact-us.html"><span>Contact Us</span></a>
                             </li>
                             <li class="relative py-2 text-2sm leading-5 font-medium">
                                 <a class="link-hover hover:text-primary"
-                                    href="<?= $app_path ?>assets/contact-us.html"><span>Our
-                                        Sitemap</span></a>
+                                    href="<?= $app_path ?>assets/blog-grid.html"><span>Tech Blog</span></a>
+                            </li>
+                            <li class="relative py-2 text-2sm leading-5 font-medium">
+                                <a class="link-hover hover:text-primary"
+                                    href="<?= $app_path ?>assets/contact-us.html"><span>Our Sitemap</span></a>
                             </li>
                         </ul>
                     </div>
                 </div>
+
                 <div class="xl:w-1/6 md:w-1/4 w-1/2">
                     <div class="sm:mb-7.5 mb-5">
                         <h2 class="text-xl/[1.2] relative mb-5 font-medium">
-                            Our Stores
+                            Our Locations
                         </h2>
                         <ul class="list-hover1">
                             <li class="relative py-2 text-2sm leading-5 font-medium">
-                                <a class="link-hover hover:text-primary" href="/"><span>New York</span></a>
+                                <a class="link-hover hover:text-primary" href="/"><span>New York HQ</span></a>
                             </li>
                             <li class="relative py-2 text-2sm leading-5 font-medium">
-                                <a class="link-hover hover:text-primary" href="/"><span>London SF</span></a>
+                                <a class="link-hover hover:text-primary" href="/"><span>London Office</span></a>
                             </li>
                             <li class="relative py-2 text-2sm leading-5 font-medium">
-                                <a class="link-hover hover:text-primary" href="/"><span>Edinburgh</span></a>
+                                <a class="link-hover hover:text-primary" href="/"><span>Singapore Office</span></a>
                             </li>
                             <li class="relative py-2 text-2sm leading-5 font-medium">
-                                <a class="link-hover hover:text-primary" href="/"><span>Los Angeles</span></a>
+                                <a class="link-hover hover:text-primary" href="/"><span>San Francisco Lab</span></a>
                             </li>
                             <li class="relative py-2 text-2sm leading-5 font-medium">
-                                <a class="link-hover hover:text-primary" href="/"><span>Las Vegas</span></a>
+                                <a class="link-hover hover:text-primary" href="/"><span>Tokyo Hub</span></a>
                             </li>
                         </ul>
                     </div>
                 </div>
+
                 <div class="xl:w-1/6 md:w-1/4 w-1/2">
                     <div class="sm:mb-7.5 mb-5">
                         <h2 class="text-xl/[1.2] relative mb-5 font-medium">
@@ -258,7 +257,7 @@
                             © <span class="current-year">2025</span>
                             <a href="https://themeforest.net/user/dexignzone" target="_blank"
                                 class="text-primary">Software Productivity Strategist</a>
-                            Theme. All Rights Reserved.
+                            . All Rights Reserved.
                         </p>
                     </div>
 
