@@ -2317,7 +2317,7 @@ include("includes/header.php");
                                     class="w-full h-full object-cover" />
                             </div>
 
-                            <div class="p-2 flex-1 flex flex-col">
+                            <div class="p-5 flex-1 flex flex-col">
                                 <h3 class="text-lg mb-2 font-semibold duration-500 [.box-hover.active_&]:text-white">
                                     Hash Malik at a cloud partner panel discussion for "Succeeding with IBM"
                                 </h3>
@@ -2337,7 +2337,7 @@ include("includes/header.php");
                                     class="w-full h-full object-cover" />
                             </div>
 
-                            <div class="p-2 flex-1 flex flex-col">
+                            <div class="p-5 flex-1 flex flex-col">
                                 <h3 class="text-lg mb-2 font-semibold duration-500 [.box-hover.active_&]:text-white">
                                     SPS makes a push into IoT through Mars rover demo
                                 </h3>
@@ -2357,7 +2357,7 @@ include("includes/header.php");
                                     class="w-full h-full object-cover" />
                             </div>
 
-                            <div class="p-2 flex-1 flex flex-col">
+                            <div class="p-5 flex-1 flex flex-col">
                                 <h3 class="text-lg mb-2 font-semibold duration-500 [.box-hover.active_&]:text-white">
                                     How To Secure & Monitor Your AI Models
                                 </h3>
