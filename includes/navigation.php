@@ -22,6 +22,25 @@
     /* semi-transparent */
     pointer-events: auto;
 }
+
+.menu-animate li a {
+    transition: all 0.25s ease;
+    display: inline-flex;
+    align-items: center;
+}
+
+.menu-animate li:hover a {
+    transform: translateX(6px);
+    color: #00b4d7;
+}
+
+.menu-animate li a i {
+    transition: transform 0.25s ease;
+}
+
+.menu-animate li:hover a i {
+    transform: translateX(4px);
+}
 </style>
 
 <!-- Header Start -->
@@ -251,25 +270,112 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="lg:inline-block block max-lg:border-b max-lg:border-gray-200 relative group">
+                        <li class="lg:inline-block block max-lg:border-b max-lg:border-gray-200 group">
                             <a class="lg:py-7 py-2 xl:px-4 lg:px-2 relative lg:inline-block block xl:text-sm text-2sm font-medium hover:text-white after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-white after:content-['+'] max-lg:after:hidden"
-                                href="<?= $app_path ?>assets/services.html">
+                                href="javascript:void(0);">
                                 <span class="inline-block leading-7.5">Automation</span>
                                 <i
                                     class="fas fa-chevron-right lg:!hidden !block size-7 !leading-7 rounded text-center text-xs bg-secondary text-white float-end"></i>
                             </a>
-                            <ul
-                                class="lg:absolute bg-white block lg:left-0 lg:py-5 max-lg:py-2.5 max-lg:border-t max-lg:border-gray-200 w-full lg:w-55 lg:opacity-0 lg:invisible lg:translate-y-10 z-10 mt-0 text-left duration-500 lg:group-hover:opacity-100 lg:group-hover:visible lg:group-hover:translate-y-0 max-lg:hidden lg:shadow-submenu mega-menu">
-                                <li class="relative">
-                                    <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-primary"
-                                        href="<?= $app_path ?>assets/services.html"><span>Services</span></a>
-                                </li>
-                                <li class="relative">
-                                    <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-primary"
-                                        href="<?= $app_path ?>assets/service-detail.html"><span>Services
-                                            Detail</span></a>
-                                </li>
-                            </ul>
+                            <div class="mega-menu lg:absolute left-1/2 -translate-x-1/2 bg-white shadow-xl rounded-xl 
+                                lg:py-10 py-5 lg:px-10 px-5 lg:w-[1100px] w-full 
+                                lg:opacity-0 lg:invisible lg:translate-y-5 duration-300
+                                lg:group-hover:opacity-100 lg:group-hover:visible lg:group-hover:translate-y-0 
+                                z-50">
+
+                                <div class="grid lg:grid-cols-3 grid-cols-1 gap-10">
+
+                                    <!-- LEFT SIDE — FULL HEIGHT IMAGE + PARAGRAPH -->
+                                    <div class="flex flex-col justify-between w-100">
+
+                                        <!-- Image full height style -->
+                                        <img src="<?= $app_path ?>assets/images/spsimg/ab2.jpg" alt="Preview"
+                                            class="rounded-lg shadow-md w-full object-cover max-h-[260px] mb-5">
+
+                                        <!-- Paragraph -->
+                                        <p class="text-gray-600 text-sm leading-relaxed mb-3">
+                                            SPS empowers enterprises with Cybersecurity, Cloud, AI & Automation
+                                            solutions designed to scale and secure digital transformation.
+                                        </p>
+
+                                        <a href="#" class="text-primary text-sm font-medium hover:underline">
+                                            Discover More →
+                                        </a>
+
+                                    </div>
+
+                                    <!-- RIGHT SIDE — CATEGORIES ONLY -->
+                                    <div class="lg:col-span-2 grid lg:grid-cols-3 grid-cols-1 gap-10 ml-3">
+
+                                        <!-- Cybersecurity -->
+                                        <div>
+                                            <h4 class="text-black text-lg font-semibold mb-3">Cybersecurity</h4>
+                                            <ul class="space-y-2 menu-animate menu-animate">
+                                                <li><a class="text-gray-600 hover:text-primary text-sm" href="#">Network
+                                                        Security <i
+                                                            class="feather icon-arrow-right ms-2 text-xs"></i></a></li>
+                                                <li><a class="text-gray-600 hover:text-primary text-sm" href="#">SMaaS
+                                                        <i class="feather icon-arrow-right ms-2 text-xs"></i></a></li>
+                                                <li><a class="text-gray-600 hover:text-primary text-sm" href="#">GRC <i
+                                                            class="feather icon-arrow-right ms-2 text-xs"></i></a>
+                                                </li>
+                                                <li><a class="text-gray-600 hover:text-primary text-sm"
+                                                        href="#">Identity & Access <i
+                                                            class="feather icon-arrow-right ms-2 text-xs"></i></a></li>
+                                                <li><a class="text-gray-600 hover:text-primary text-sm" href="#">Threat
+                                                        Management <i
+                                                            class="feather icon-arrow-right ms-2 text-xs"></i></a></li>
+                                            </ul>
+                                        </div>
+
+                                        <!-- Cloud -->
+                                        <div>
+                                            <h4 class="text-black text-lg font-semibold mb-3">Cloud</h4>
+                                            <ul class="space-y-2 menu-animate">
+                                                <li><a class="text-gray-600 hover:text-primary text-sm" href="#">DevOps
+                                                        <i class="feather icon-arrow-right ms-2 text-xs"></i></a></li>
+                                                <li><a class="text-gray-600 hover:text-primary text-sm"
+                                                        href="#">Migration Services <i
+                                                            class="feather icon-arrow-right ms-2 text-xs"></i></a></li>
+                                            </ul>
+                                        </div>
+
+                                        <!-- AI & Automation -->
+                                        <div>
+                                            <h4 class="text-black text-lg font-semibold mb-3">AI & Automation</h4>
+                                            <ul class="space-y-2 menu-animate">
+                                                <li><a class="text-gray-600 hover:text-primary text-sm"
+                                                        href="#">Automation <i
+                                                            class="feather icon-arrow-right ms-2 text-xs"></i></a></li>
+                                                <li><a class="text-gray-600 hover:text-primary text-sm" href="#">Data
+                                                        Science <i
+                                                            class="feather icon-arrow-right ms-2 text-xs"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4 class="text-black text-lg font-semibold mb-3">Training</h4>
+                                            <ul class="space-y-2 menu-animate">
+                                                <li><a class="text-gray-600 hover:text-primary text-sm"
+                                                        href="#">Automation <i
+                                                            class="feather icon-arrow-right ms-2 text-xs"></i></a></li>
+                                                <li><a class="text-gray-600 hover:text-primary text-sm" href="#">Data
+                                                        Science <i
+                                                            class="feather icon-arrow-right ms-2 text-xs"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4 class="text-black text-lg font-semibold mb-3">Collaboration</h4>
+                                            <ul class="space-y-2 menu-animate">
+                                                <li><a class="text-gray-600 hover:text-primary text-sm" href="#">Events
+                                                        <i class="feather icon-arrow-right ms-2 text-xs"></i></a></li>
+                                                <li><a class="text-gray-600 hover:text-primary text-sm"
+                                                        href="#">Training <i
+                                                            class="feather icon-arrow-right ms-2 text-xs"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
                         <li class="lg:inline-block block max-lg:border-b max-lg:border-gray-200 relative group">
                             <a class="lg:py-7 py-2 xl:px-4 lg:px-2 relative lg:inline-block block xl:text-sm text-2sm font-medium hover:text-white after:ml-1 after:-mt-1 after:inline-block after:size-3 after:text-white after:content-['+'] max-lg:after:hidden"

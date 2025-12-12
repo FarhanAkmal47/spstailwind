@@ -75,6 +75,14 @@ include("includes/header.php");
 .animate-bounce-slow {
     animation: bounce-slow 3s ease-in-out infinite;
 }
+
+.nav-bg {
+    background: #d1caca !important;
+}
+
+.logo-clr {
+    color: #00b4d7 !important;
+}
 </style>
 <main class="page-content">
     <!-- Hero Slider -->
@@ -177,6 +185,50 @@ include("includes/header.php");
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
     </div>
+
+    <section class="2xl:pt-25 2xl:pb-17.5 md:pt-17.5 md:pb-10 sm:pt-12.5 sm:pb-5 pt-10 pb-5 bg-light">
+        <div class="container">
+            <div class="row content-wrapper style-25 items-center">
+                <div class="lg:w-1/2 w-full mb-3.75">
+                    <div class="2xxl:-ml-20 2xxl:pr-48.75 xl:pr-33.75 lg:pr-18.75 max-lg:mb-5">
+                        <div class="flex items-center relative max-lg:h-130 max-sm:!h-87.5">
+                            <img src="<?= $app_path ?>assets/images/spsimg/ab1.jpg" alt=""
+                                class="size-full object-cover rounded-2xl">
+                            <img src="<?= $app_path ?>assets/images/spsimg/ab2.jpg" alt=""
+                                class="xl:-ml-32.5 -ml-25 xl:w-55 w-37.5 xl:h-65 h-45 object-cover rounded-2xl">
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 w-full mb-7.5">
+                    <div class="sm:mb-7.5 mb-5">
+                        <div class="text-primary font-semibold leading-5 uppercase text-lg inline-flex gap-1.25"
+                            data-wow-delay="0.2s" data-wow-duration="0.8s">About Us</div>
+
+                        <h2 class="2xxl:text-4xxl lg:text-[38px] sm:text-[32px] text-2xxl capitalize wow fadeInUp"
+                            data-wow-delay="0.2s" data-wow-duration="0.8s">
+                            We Specialize in Digital Transformation
+                        </h2>
+
+                        <p class="xl:text-lg text-base font-light md:mb-12 mb-6 wow fadeInUp" data-wow-delay="0.4s"
+                            data-wow-duration="0.8s">
+                            Whether you are an entrepreneur looking for an engineering team or an enterprise
+                            pursuing digital transformation, we can help you bring your vision to reality.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-wrap items-center wow fadeInUp" data-wow-delay="0.8s"
+                        data-wow-duration="0.8s">
+                        <a href="about-us.html" class="btn btn-primary btn-rounded me-6 wow fadeInUp"
+                            data-wow-delay="0.6s" data-wow-duration="0.8s">
+                            Read More
+                            <i class="feather icon-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
     <!-- <div class="relative -mt-16 z-20">
         <div class="container mx-auto">
             <div class="bg-white rounded-2xl p-6 shadow-xl text-center animate-bounce-slow">
@@ -187,7 +239,7 @@ include("includes/header.php");
             </div>
         </div>
     </div> -->
-    <div class="relative -mt-16 z-20">
+    <!-- <div class="relative -mt-16 z-20">
         <div class="container mx-auto">
             <div class="bg-white rounded-2xl p-6 shadow-xl text-center animate-bounce-slow">
                 <h4 class="text-sm md:text-sm font-bold  p-5 text-white bg-secondary">
@@ -196,7 +248,7 @@ include("includes/header.php");
                 </h4>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="text-center">
         <div class="xl:py-10.5 md:py-10 py-7.5">
             <div class="container">
@@ -209,6 +261,7 @@ include("includes/header.php");
                                 pursuing digital transformation we can help you bring your vision to reality.</h4>
 
                         </div> -->
+
                         <div class="mb-5 text-start">
                             <div class="custom-tab">
                                 <ul class="flex flex-wrap justify-center">
@@ -1463,7 +1516,8 @@ include("includes/header.php");
                             <div class="sm:mb-7.5 mb-5">
                                 <h2 class="sm:text-2xxl text-xl text-white mb-0">
                                     Manage Your
-                                    <span class="text-yellow-500">IT Services</span>
+                                    <span class="text-secondary font-bold">IT Services</span>
+
                                     <br />
                                     Request Software Solutions
                                 </h2>
@@ -2294,6 +2348,98 @@ include("includes/header.php");
             </div>
         </div>
     </section>
+    <section class="2xxl:pt-25 md:pt-17.5 sm:pt-12.5 pt-10 2xxl:pb-17.5 md:pb-10 pb-5">
+        <div class="container">
+            <div class="row items-center">
+                <div class="xl:w-1/3">
+                    <div class="sm:mb-7.5 mb-5 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s">
+                        <h2 class="2xxl:text-4xxl lg:text-[38px] sm:text-[32px] text-2xxl font-bold capitalize mb-0">
+                            Customers we are proud to work with.</h2>
+                    </div>
+                </div>
+                <div class="xl:w-2/3 mb-7.5">
+                    <div class="swiper client-swiper2 swiper-initialized swiper-horizontal swiper-backface-hidden">
+                        <div class="swiper-wrapper" id="swiper-wrapper-af52c60ce9750dc10" aria-live="off"
+                            style="transition-duration: 0ms; transform: translate3d(-897px, 0px, 0px); transition-delay: 0ms;">
+                            <div class="swiper-slide wow bounceIn" data-wow-delay="0.2s" data-wow-duration="0.8s"
+                                role="group" aria-label="2 / 8" data-swiper-slide-index="1"
+                                style="width: 194.25px; margin-right: 30px;">
+                                <div
+                                    class="rounded-2xl text-center p-7.5 duration-200 flex items-center justify-center min-h-27.5">
+                                    <img src="http://localhost/my_sites/spswebsite/assets/images/spsimg/techpartnersimg/ibm.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide wow bounceIn" data-wow-delay="0.3s" data-wow-duration="0.8s"
+                                role="group" aria-label="3 / 8" data-swiper-slide-index="2"
+                                style="width: 194.25px; margin-right: 30px;">
+                                <div class="rounded-2xl text-center p-7.5 duration-200 flex items-center justify-center min-h-27.5 mt-3"
+                                    style=" width: 160px; ">
+                                    <img src="http://localhost/my_sites/spswebsite/assets/images/spsimg/techpartnersimg/aws.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide wow bounceIn" data-wow-delay="0.4s" data-wow-duration="0.8s"
+                                role="group" aria-label="4 / 8" data-swiper-slide-index="3"
+                                style="width: 194.25px; margin-right: 30px;">
+                                <div
+                                    class="rounded-2xl text-center p-7.5 duration-200 flex items-center justify-center min-h-27.5">
+                                    <img src="http://localhost/my_sites/spswebsite/assets/images/spsimg/techpartnersimg/ibm.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide wow bounceIn swiper-slide-prev" data-wow-delay="0.5s"
+                                data-wow-duration="0.8s" role="group" aria-label="5 / 8" data-swiper-slide-index="4"
+                                style="width: 194.25px; margin-right: 30px;">
+                                <div class="rounded-2xl text-center p-7.5 duration-200 flex items-center justify-center min-h-27.5 mt-3"
+                                    style=" width: 160px; ">
+                                    <img src="http://localhost/my_sites/spswebsite/assets/images/spsimg/techpartnersimg/aws.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide wow bounceIn swiper-slide-active" data-wow-delay="0.6s"
+                                data-wow-duration="0.8s" role="group" aria-label="6 / 8" data-swiper-slide-index="5"
+                                style="width: 194.25px; margin-right: 30px;">
+                                <div
+                                    class="rounded-2xl text-center p-7.5 duration-200 flex items-center justify-center min-h-27.5">
+                                    <img src="http://localhost/my_sites/spswebsite/assets/images/spsimg/techpartnersimg/ibm.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide wow bounceIn swiper-slide-next" data-wow-delay="0.7s"
+                                data-wow-duration="0.8s" role="group" aria-label="7 / 8" data-swiper-slide-index="6"
+                                style="width: 194.25px; margin-right: 30px;">
+                                <div class="rounded-2xl text-center p-7.5 duration-200 flex items-center justify-center min-h-27.5 mt-3"
+                                    style=" width: 160px; ">
+                                    <img src="http://localhost/my_sites/spswebsite/assets/images/spsimg/techpartnersimg/aws.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide wow bounceIn" data-wow-delay="0.8s" data-wow-duration="0.8s"
+                                role="group" aria-label="8 / 8" data-swiper-slide-index="7"
+                                style="width: 194.25px; margin-right: 30px;">
+                                <div
+                                    class="rounded-2xl text-center p-7.5 duration-200 flex items-center justify-center min-h-27.5">
+                                    <img src="http://localhost/my_sites/spswebsite/assets/images/spsimg/techpartnersimg/ibm.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide wow bounceIn" data-wow-delay="0.1s" data-wow-duration="0.8s"
+                                role="group" aria-label="1 / 8" data-swiper-slide-index="0"
+                                style="width: 194.25px; margin-right: 30px;">
+                                <div class="rounded-2xl text-center p-7.5 duration-200 flex items-center justify-center min-h-27.5 mt-3"
+                                    style=" width: 160px; ">
+                                    <img src="http://localhost/my_sites/spswebsite/assets/images/spsimg/techpartnersimg/aws.png"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="2xxl:py-25 xl:17.5 md:py-12.5 sm:py-10 py-7.5 bg-secondary">
         <div class="container">
             <div class="3xl:-mx-22.5 2xxl:-mx-15 xl:-mx-5">
@@ -2372,6 +2518,291 @@ include("includes/header.php");
             </div>
         </div>
     </section>
+    <div class="xl:py-17.5 md:py-10 py-7.5 bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="w-full">
+                    <div class="sm:mb-7.5 mb-5 text-center">
+                        <h4
+                            class="text-primary text-2xl inline-block mb-0 relative after:absolute after:top-1/2 after:-left-40 after:w-37.5 after:h-px after:bg-black after:opacity-15 before:absolute before:top-1/2 before:-right-40 before:w-37.5 before:h-px before:bg-black before:opacity-15">
+                            News & Insights – Style 2</h4>
+                    </div>
+
+                    <div class="mb-5 text-start">
+                        <div class="row">
+
+                            <!-- ITEM 1 -->
+                            <div class="xl:w-1/3 md:w-1/2 w-full mb-6.25">
+                                <div class="relative z-1 lg:p-7.5 p-5 h-full duration-200 bg-white rounded-3xl group">
+                                    <div
+                                        class="rounded-xxl mb-6.25 sm:h-62.5 h-50 relative overflow-hidden before:absolute before:top-0 before:-left-[75%] before:z-0 before:block before:w-1/2 before:h-full before:skew-x-[-25deg] before:bg-linear-(--img-hover-gradient) group-hover:before:animate-dzShine">
+                                        <img src="<?= $app_path ?>assets/images/spsimg/news/news1.jpg" alt=""
+                                            class="size-full object-cover">
+                                    </div>
+
+                                    <div class="relative">
+                                        <div class="mb-2.5">
+                                            <ul class="flex flex-wrap items-center gap-1.25">
+                                                <li class="bg-[rgba(var(--primary-rgb),0.1)]
+                                                text-primary rounded-xxl font-medium text-2xs py-1.25 pr-3.75
+                                                pl-5.75 leading-[1.4] relative inline-flex mr-1.25 items-center
+                                                gap-1 flex-wrap after:absolute after:size-1.5 after:rounded-full
+                                                after:bg-primary after:left-2.5">
+                                                    17 May 2025
+                                                </li>
+                                                <li class="bg-[rgba(var(--primary-rgb),0.1)] text-primary rounded-xxl 
+                                                font-medium text-2xs py-1.25 pr-3.75 pl-5.75 leading-[1.4] relative 
+                                                inline-flex mr-1.25 items-center gap-1 flex-wrap after:absolute 
+                                                after:size-1.5 after:rounded-full after:bg-primary after:left-2.5">
+                                                    By <a href="javascript:void(0);">Admin</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <h3 class="xl:text-2xl text-xl mb-2.5">
+                                            <a href="#">
+                                                Hash Malik at a cloud partner panel discussion for "Succeeding with IBM"
+                                            </a>
+                                        </h3>
+
+                                        <p class="text-2sm">
+                                            Avnet Partner Summit: “Succeeding with IBM for Future Growth”
+                                        </p>
+
+                                        <a href="#" class="text-2sm font-medium capitalize text-primary">
+                                            Read more <i class="feather icon-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ITEM 2 -->
+                            <div class="xl:w-1/3 md:w-1/2 w-full mb-6.25">
+                                <div class="relative z-1 lg:p-7.5 p-5 h-full duration-200 bg-white rounded-3xl group">
+                                    <div class="rounded-xxl mb-6.25 sm:h-62.5 h-50 relative overflow-hidden before:absolute 
+                                    before:top-0 before:-left-[75%] before:z-0 before:block before:w-1/2 before:h-full 
+                                    before:skew-x-[-25deg] before:bg-linear-(--img-hover-gradient) 
+                                    group-hover:before:animate-dzShine">
+                                        <img src="<?= $app_path ?>assets/images/spsimg/news/news2.jpg" alt=""
+                                            class="size-full object-cover">
+                                    </div>
+
+                                    <div class="relative">
+                                        <div class="mb-2.5">
+                                            <ul class="flex flex-wrap items-center gap-1.25">
+                                                <li class="bg-[rgba(var(--primary-rgb),0.1)]
+                                                text-primary rounded-xxl font-medium text-2xs py-1.25 pr-3.75
+                                                pl-5.75 leading-[1.4] relative inline-flex mr-1.25 items-center
+                                                gap-1 flex-wrap after:absolute after:size-1.5 after:rounded-full
+                                                after:bg-primary after:left-2.5">
+                                                    17 May 2025
+                                                </li>
+                                                <li class="bg-[rgba(var(--primary-rgb),0.1)] text-primary rounded-xxl 
+                                                font-medium text-2xs py-1.25 pr-3.75 pl-5.75 leading-[1.4] relative 
+                                                inline-flex mr-1.25 items-center gap-1 flex-wrap after:absolute 
+                                                after:size-1.5 after:rounded-full after:bg-primary after:left-2.5">
+                                                    By <a href="javascript:void(0);">Admin</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <h3 class="xl:text-2xl text-xl mb-2.5">
+                                            <a href="#">
+                                                SPS makes a push into IoT through Mars rover innovation demo
+                                            </a>
+                                        </h3>
+
+                                        <p class="text-2sm">
+                                            IoT Summit – SPS Participation Driving Digital Transformation
+                                        </p>
+
+                                        <a href="#" class="text-2sm font-medium capitalize text-primary">
+                                            Read more <i class="feather icon-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ITEM 3 -->
+                            <div class="xl:w-1/3 md:w-1/2 w-full mb-6.25">
+                                <div class="relative z-1 lg:p-7.5 p-5 h-full duration-200 bg-white rounded-3xl group">
+                                    <div class="rounded-xxl mb-6.25 sm:h-62.5 h-50 relative overflow-hidden before:absolute 
+                                    before:top-0 before:-left-[75%] before:z-0 before:block before:w-1/2 before:h-full 
+                                    before:skew-x-[-25deg] before:bg-linear-(--img-hover-gradient) 
+                                    group-hover:before:animate-dzShine">
+                                        <img src="<?= $app_path ?>assets/images/spsimg/news/news3.jpg" alt=""
+                                            class="size-full object-cover">
+                                    </div>
+
+                                    <div class="relative">
+                                        <div class="mb-2.5">
+                                            <ul class="flex flex-wrap items-center gap-1.25">
+                                                <li class="bg-[rgba(var(--primary-rgb),0.1)]
+                                                text-primary rounded-xxl font-medium text-2xs py-1.25 pr-3.75
+                                                pl-5.75 leading-[1.4] relative inline-flex mr-1.25 items-center
+                                                gap-1 flex-wrap after:absolute after:size-1.5 after:rounded-full
+                                                after:bg-primary after:left-2.5">
+                                                    17 May 2025
+                                                </li>
+                                                <li class="bg-[rgba(var(--primary-rgb),0.1)] text-primary rounded-xxl 
+                                                font-medium text-2xs py-1.25 pr-3.75 pl-5.75 leading-[1.4] relative 
+                                                inline-flex mr-1.25 items-center gap-1 flex-wrap after:absolute 
+                                                after:size-1.5 after:rounded-full after:bg-primary after:left-2.5">
+                                                    By <a href="javascript:void(0);">Admin</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <h3 class="xl:text-2xl text-xl mb-2.5">
+                                            <a href="#">
+                                                How To Secure & Monitor Your AI Models in Real-World Environments
+                                            </a>
+                                        </h3>
+
+                                        <p class="text-2sm">
+                                            Mr. Eugene Willard, a 35+ year industry veteran, shares his expert opinion
+                                        </p>
+
+                                        <a href="#" class="text-2sm font-medium capitalize text-primary">
+                                            Read more <i class="feather icon-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="2xxl:py-25 xl:py-17.5 md:py-10 py-7.5">
+        <div class="container">
+            <div class="mb-7.5 row items-end">
+                <div class="lg:w-7/12 md:w-2/3">
+                    <h2 class="xl:text-4xxl sm:text-3xxl text-2xxl font-bold capitalize mb-0">
+                        Stay Updated with <br> Our Latest News & Insights
+                    </h2>
+                </div>
+                <div class="lg:w-5/12 md:w-1/3 md:text-end hidden md:block">
+                    <a href="#" class="btn btn-icon btn-primary btn-shadow group">
+                        View All
+                        <span
+                            class="size-11 min-w-11 bg-white rounded-2lg text-heading inline-flex items-center justify-center -my-2.75 md:-mr-5 ml-3 -mr-4 max-sm:hidden">
+                            <i class="feather icon-arrow-right group-hover:animate-toRightFromLeft"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row g-20">
+
+                <!-- MAIN BIG LEFT BLOG (NEWS 1) -->
+                <div class="lg:w-1/3 w-full">
+                    <div class="relative overflow-hidden sm:rounded-3xl rounded-xxl xl:h-137.5 h-105 bg-light bg-cover"
+                        style="background-image: url('<?= $app_path ?>assets/images/spsimg/news/news1.jpg');">
+                        <div class="relative !pt-17.5 xl:p-7.5 p-5 size-full flex flex-col z-1">
+                            <div class="max-w-1/2">
+                                <div class="py-1.25 px-3.75 absolute top-7.5 left-7.5 z-1 
+                                text-secondary bg-white font-medium text-xs uppercase rounded-5xl">
+                                    News Update
+                                </div>
+                                <h3 class="xl:text-2xl text-xl mb-0 text-white">
+                                    <a href="#">
+                                        Hash Malik at a cloud partner panel discussion — “Succeeding with IBM”
+                                    </a>
+                                </h3>
+                            </div>
+                            <div class="flex items-end gap-7.5 flex-1 justify-between">
+                                <a href="#" class="btn btn-icon btn-lg btn-primary">
+                                    Read More
+                                    <span
+                                        class="size-11 min-w-11 bg-white rounded-2lg text-heading inline-flex items-center justify-center ml-3">
+                                        <i class="feather icon-arrow-right"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LARGE CENTER BLOG (NEWS 2) -->
+                <div class="xl:w-5/12 lg:w-2/3 w-full">
+                    <div class="relative overflow-hidden sm:rounded-3xl rounded-xxl xl:h-137.5 h-105 bg-light bg-cover 
+                    after:absolute after:left-0 after:size-full after:top-0 after:bg-linear-(--card-2-gradient)"
+                        style="background-image: url('<?= $app_path ?>assets/images/spsimg/news/news2.jpg');">
+                        <div class="relative !pt-17.5 xl:p-7.5 p-5 size-full flex flex-col z-1">
+                            <div class="py-1.25 px-3.75 absolute top-7.5 left-7.5 z-1 
+                            text-secondary bg-white font-medium text-xs uppercase rounded-5xl">
+                                IoT Summit
+                            </div>
+                            <div class="flex items-end gap-7.5 flex-1 justify-between">
+                                <h3 class="xl:text-2xl text-xl mb-0 text-white">
+                                    <a href="#">
+                                        SPS makes a push into IoT through Mars rover demo
+                                    </a>
+                                </h3>
+                                <a href="#" class="btn btn-square btn-white !rounded-full group">
+                                    <i class="feather icon-arrow-up-right group-hover:animate-toTopRight"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT SMALL TWO BLOGS (NEWS 3 + CUSTOM EMPTY) -->
+                <div class="xl:w-1/4 lg:w-full">
+                    <div class="row g-20">
+
+                        <!-- SMALL CARD (NEWS 3) -->
+                        <div class="xl:w-full md:w-1/2 w-full">
+                            <div class="relative overflow-hidden sm:rounded-3xl rounded-xxl h-66.25 bg-light bg-cover 
+                            after:absolute after:left-0 after:size-full after:top-0 after:bg-linear-(--card-2-gradient)"
+                                style="background-image:url('<?= $app_path ?>assets/images/spsimg/news/news3.jpg');">
+                                <div class="relative !pt-17.5 xl:p-7.5 p-5 size-full flex flex-col z-1">
+                                    <div class="py-1.25 px-3.75 absolute top-7.5 left-7.5 z-1 
+                                    text-secondary bg-white font-medium text-xs uppercase rounded-5xl">
+                                        Expert Opinion
+                                    </div>
+
+                                    <div class="flex items-end gap-7.5 flex-1 justify-between">
+                                        <h3 class="text-xl mb-0 text-white">
+                                            <a href="#">
+                                                How To Secure & Monitor Your AI Models
+                                            </a>
+                                        </h3>
+                                        <a href="#" class="btn btn-square btn-white !rounded-full group">
+                                            <i class="feather icon-arrow-up-right group-hover:animate-toTopRight"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SMALL EMPTY BLOG CARD (OPTIONAL / CAN REMOVE) -->
+                        <div class="xl:w-full md:w-1/2 w-full">
+                            <div class="relative overflow-hidden sm:rounded-3xl rounded-xxl h-66.25 bg-secondary">
+                                <div class="relative !pt-17.5 xl:p-7.5 p-5 size-full flex flex-col z-1 text-white">
+                                    <h3 class="text-xl mb-0 text-white">
+                                        <a href="#">More updates coming soon...</a>
+                                    </h3>
+                                    <div class="flex items-end gap-7.5 flex-1 justify-between ms-auto">
+                                        <a href="#" class="btn btn-square btn-white !rounded-full group">
+                                            <i class="feather icon-arrow-up-right group-hover:animate-toTopRight"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
     <section class="2xxl:py-25 xl:py-17.5 md:py-12.5 sm:py-10 py-7.5 bg-light bg-cover">
         <div class="container">
             <div class="mb-7.5 text-center" data-wow-delay="0.2s" data-wow-duration="0.8s">
@@ -2648,7 +3079,6 @@ include("includes/header.php");
             </div>
         </div>
     </section>
-
 
 </main>
 <?php include("includes/footer.php"); ?>
